@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-6xl mx-auto border-2 border-gray-300 rounded-lg shadow-md mb-4">
+    <div class="max-w-6xl mx-auto border-2 border-gray-300 rounded-lg shadow-md mb-8">
       <div @click="toggleOpen" class="flex justify-between items-center cursor-pointer bg-white rounded-t-lg p-4">
         <h2 class="text-2xl font-bold text-center text-gray-800 w-full">{{ title }}</h2>
         <svg v-if="!isOpen" class="w-4 h-4 transform rotate-90 text-gray-600" fill="none" stroke="currentColor"
